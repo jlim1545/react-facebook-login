@@ -11,21 +11,16 @@ $font-family-default: 'Helvetica', sans-serif;
 }
 
 %button {
-  font-family: $font-family-default;
-  font-weight: bold;
-  -webkit-font-smoothing: antialiased;
-  border-width: calc-responsive(1, 468, 2, 1920);
-  border-style: solid;
-  color: #FFF;
-  cursor: pointer;
-  display: inline-block;
-  font-size: calc-responsive(14, 468, 18, 1920);
+  width: 300px;
+  // background-color: $theme-color-blue;
+  border: #ddd solid 1.5px;
+  padding: 12px 15px;
+  text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
-  transition: background-color .3s, border-color .3s;
-  background-color: #4C69BA;
-  border-color: #4C69BA;
-  padding: calc-responsive(15, 468, 20, 1920) calc-responsive(20, 468, 25, 1920);
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 18px;
+  margin: 5px;
 }
 
 .kep-login-facebook {
